@@ -1,0 +1,993 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: comfortaa;
+    margin: auto;
+    font-size: 18px;
+    background: radial-gradient(circle at center top,rgb(10,28,58) 0px,rgb(5,17,34) 900px,rgb(5,17,34));
+}
+
+header{
+    margin: auto;
+}
+
+html{
+    margin: auto;
+}
+
+@font-face{
+    font-family: machine;
+    src: url(../fonts/machine-regular.ttf);
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    list-style: none;
+    text-decoration: none; 
+}
+
+.color{
+    color: white;
+}
+
+.color:hover{
+    color: #19aaff;
+    font-weight: bolder;
+    transition: all .5s;
+}
+
+.color1{
+    color: white;
+}
+
+.color1:hover{
+    color: white;
+}
+
+.lupa{
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.centradoheader{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 150px;
+    height: 30px;
+}
+
+.navegador{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    justify-content: center;
+}
+
+.navegador1{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.d{
+    margin-right: 15px;
+}
+
+.i{
+    margin-left: 15px;
+}
+
+.primerparrafo{
+    font-family: machine;
+    color: white;
+    font-size: 65px;
+    width: 450px;
+    margin: -450px 680px 0px 0px;
+}
+
+.rectangulo{
+    color: white;
+    height: 20px;
+    width: 200px;
+    border: 1px solid white;
+    background: transparent;
+    padding: 15px;
+    margin: -90px 890px 0px 0px;
+    border-bottom-right-radius: 30px;
+}
+
+.rectangulo:hover{
+    color: white;
+    width: 200px;
+    border: 1px solid #0068c8;
+    background:  #0068c8;
+    transition: all .5s;
+    padding: 15px;
+    margin: -90px 890px 0px 0px;
+    border-bottom-right-radius: 30px;
+}
+
+.rombo1{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    transform: rotate(45deg);
+    margin: -330px 0px 0px 1150px;
+}
+
+.rombo1:hover{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #19aaff;
+    transform: rotate(45deg);
+    transition: all .5s;
+    margin: -330px 0px 0px 1150px;
+}
+
+.rombo2{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    transform: rotate(45deg);
+    margin: -230px 0px 0px 1150px;
+}
+
+.rombo2:hover{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #19aaff;
+    transform: rotate(45deg);
+    transition: all .5s;
+    margin: -230px 0px 0px 1150px;
+}
+
+.fa-chevron-left{
+    transform: rotate(-45deg);
+    padding: 10px;
+    font-size: 30px;
+}
+
+.fa-chevron-right{
+    transform: rotate(-45deg);
+    padding: 10px;
+    font-size: 30px;
+}
+
+.color2{
+    color: white;
+}
+
+.icono{
+    display: flex;
+    justify-content: center;
+}
+
+.rombo{
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transform: rotate(-45deg);
+}
+
+.rombo:hover{
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transform: rotate(-45deg);
+}
+
+.h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-weight: bolder;
+}
+
+.h31{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-weight: bolder;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+
+.linea{
+    width: 80px;
+    margin-top: 10px;
+    height: 5px;
+    border-bottom: 1px solid #0068c8;
+    border-top: 1px solid #0068c8;
+}
+
+.botonazul{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.fondo{
+    background-image: url(../img/a);
+    width: 250px;
+    height: 390px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fondo2{
+    background-image: url(../img/m);
+    width: 250px;
+    height: 390px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fondo3{
+    background-image: url(../img/e);
+    width: 250px;
+    height: 390px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fondo4{
+    background-image: url(../img/v);
+    width: 250px;
+    height: 390px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.botones1{
+    padding: 20px;
+    background-color: #0068c8;
+    color: white;
+    border-bottom-right-radius: 20px;
+    width: 15px;
+    height: 15px;
+}
+
+.botones1:hover{
+    padding: 20px;
+    background-color: #19aaff;
+    color: white;
+    border-bottom-right-radius: 20px;
+    width: 15px;
+    height: 15px;
+    transition: all .5s;
+}
+
+.titulos1{
+    font-family: machine;
+    color: white;
+    font-size: 30px;
+    margin: 315px 0px 0px -30px;
+}
+
+.titulos2{
+    font-family: machine;
+    color: white;
+    font-size: 30px;
+    margin: 315px 0px 0px -10px;
+}
+
+.titulos3{
+    font-family: machine;
+    color: white;
+    font-size: 30px;
+    margin: 315px 0px 0px -10px;
+    width: 240px;
+}
+
+.titulos4{
+    font-family: machine;
+    color: white;
+    font-size: 30px;
+    margin: 315px 0px 0px -10px;
+    width: 200px;
+}
+
+.rombo3{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    transform: rotate(45deg);
+    margin: 0px 25px 0px 0px;
+}
+
+.rombo3:hover{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    transform: rotate(45deg);
+    margin: 0px 25px 0px 0px;
+    border: 1px solid #19aaff;
+    transition: all .5s;
+}
+
+.colores{
+    color: white;
+}
+
+.colores:hover{
+    color: #19aaff;
+}
+
+.rombo4{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    transform: rotate(45deg);
+    margin: 0px 0px 0px 25px;
+}
+
+.rombo4:hover{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    transform: rotate(45deg);
+    margin: 0px 0px 0px 25px;
+    border: 1px solid #19aaff;
+    transition: all .5s;
+}
+
+.rombos{
+    display: flex;
+    justify-content: center;
+    margin: 150px 0px 150px 0px;
+}
+
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 400px;
+}
+
+.banner1{
+    background-image: url(../img/banner1.webp);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.salas{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0px 900px 0px 0px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+
+.margintop{
+    display: flex;
+    justify-content: center;
+}
+
+.margintop1{
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: -250px 750px 0px 0px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 310px;
+}
+
+.parrafo2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: -250px 765px 0px 0px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 300px;
+}
+
+
+.enlace{
+    display: flex;
+    flex-direction: row;
+    color: #19aaff;
+    margin: -150px 750px 0px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 310px;
+}
+
+.espaciado2{
+    color: white;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.contenedor3{
+    display: flex;
+    justify-content: center;
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.ofertas{
+    margin: 10px;
+}
+
+.contenido1{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor4{
+    background-color: white;
+    height: 300px;
+    width: 370px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom-right-radius: 50px;
+    margin-bottom: 100px;
+}
+
+.fichatitulo1{
+    padding: 30px;
+    line-height: 22px;
+}
+
+.fichaparrafo1{
+    margin-top: -10px;
+    margin-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #4e5a6c;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 22px;
+}
+
+.info1{
+    margin-top: -20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    color: #19aaff;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.info2{
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    color: #19aaff;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.info3{
+    margin-top: -45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    color: #19aaff;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.promocion{
+    display: flex;
+    justify-content: center;
+}
+
+.dentroboton{
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 300px;
+    border: 1px solid #0068c8;
+    background:  #0068c8;
+    padding: 15px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 80px;
+}
+
+footer{
+    background: #0a1c3a;
+}
+
+.dentroboton1{
+    color: white;
+}
+
+.footer{
+    margin: 0px 0px 0px 60px;
+    font-size: 15px;
+    color: white;
+    width: 400px;
+    line-height: 17px;
+}
+
+.footer:hover{
+    margin: 0px 0px 0px 60px;
+    font-size: 15px;
+    color: #19aaff;
+    width: 400px;
+    transition: all .5s;
+    font-weight: bolder;
+    line-height: 17px;
+}
+
+.cont{
+    width: 300px;
+    height: 380px;
+    display: block;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ul{
+    display: block;
+}
+
+.margenabajo{
+    margin-bottom: 8px;
+}
+
+.fichas{
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px 0px 0px;
+}
+
+.botonderecha{
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #0068c8;
+}
+
+.posicionamiento{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dentroboton2{
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.linea1{
+    border-top: 1px solid black;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 800px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+.circulo{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.transparente{
+    color: white;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 20px;
+    height: 25px;
+    border: 1px solid #0068c8;
+    background:  #0068c8;
+    padding: 25px;
+    font-size: 25px;
+    margin-top: 200px;
+    margin-bottom: 230px;
+    border-bottom-right-radius: 20px;
+}
+
+.imagenfondo{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 500px;
+}
+
+.sombra{
+    background: linear-gradient(0deg,#000000 0%,rgba(0,0,0,0.6) 20%,rgba(0,0,0,0.15) 50%,transparent 100%);
+}
+
+.bloque{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: -100px 900px 0px 0px;
+}
+
+.fondopagina{
+    background-image: url(../img/a);
+    width: 230px;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: -80px 0px 0px -120px;
+}
+
+.bloque1{
+    color: white;
+    display: block;
+    justify-content: center;
+    margin: -250px 0px 0px 400px;
+    width: 300px;
+}
+
+.footerficha{
+    margin: 0px 0px 0px 60px;
+    font-size: 15px;
+    color: white;
+    width: 400px;
+    line-height: 17px;
+}
+
+.footerficha:hover{
+    margin: 0px 0px 0px 60px;
+    font-size: 15px;
+    color: #19aaff;
+    width: 400px;
+    transition: all .5s;
+    font-weight: bolder;
+    line-height: 17px;
+}
+
+.contficha{
+    width: 300px;
+    height: 380px;
+    display: block;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ulficha{
+    display: block;
+}
+
+.margenabajoficha{
+    margin-bottom: 8px;
+}
+
+.titulosficha{
+    font-family: machine;
+    color: white;
+    font-size: 30px;
+    width: 500px;
+    margin: -50px 0px 0px -180px;
+    display: flex;
+    justify-content: center;
+}
+
+.cono{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.cont2{
+    color: white;
+    margin: 20px 0px 0px -133px;
+    width: 810px;
+    line-height: 25px;
+}
+
+.nombre{
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: white;
+}
+
+.titulofic{
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.cont3{
+    margin: 0px 0px 0px 400px;
+}
+
+.espacio{
+    margin: 0px 100px 0px 0px;
+}
+
+.nombre1{
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: white;
+    width: 150px;
+}
+
+.nombre2{
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: white;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+.nombre3{
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: white;
+    width: 150px;
+    line-height: 20px;
+}
+
+.titulofic1{
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    width: 150px;
+}
+
+.horario{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 1100px;
+    height: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: #0a1c3a;
+}
+
+.contenidodentro{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 50px;
+    width: 1100px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.posicioniz{
+    margin-right: 430px;
+}
+
+.cines{
+    color: #19aaff;
+}
+
+.posicionde{
+    margin-left: 40px;
+    color: white;
+}
+
+.posicionde:hover{
+    margin-left: 40px;
+    color: #19aaff;
+}
+
+.icono1{
+    margin-left: 10px;
+    color: white;
+}
+
+.icono1:hover{
+    margin-left: 10px;
+    color: #19aaff;
+}
+
+.icono2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+.ulficha{
+    display: block;
+}
+
+.margenabajoficha{
+    margin-bottom: 8px;
+}
+
+.titulosficha{
+    font-family: machine;
+    color: white;
+    font-size: 30px;
+    width: 500px;
+    margin: -50px 0px 0px -180px;
+    display: flex;
+    justify-content: center;
+}
+
+.banda{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.bandacolor{
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    height: 50px;
+    background: #0a1c3a;
+}
+
+.bandatexto{
+    display: flex;
+    justify-content: center;
+}
+
+.textoizq{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 480px;
+}
+
+.textoder{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+}
+
+.textoder:hover{
+    color: #19aaff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+}
+
+.cines{
+    color: #19aaff;
+}
+
+.esp{
+    margin-left: 5px;
+}
+
+.film{
+    display: flex;
+    justify-content: center;
+    color: rgb(114, 114, 114);
+    font-size: 180px;
+}
+
+.textos{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 10px 0px 10px 0px;
+    font-size: 30px;
+}
+
+.textos1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 20px 0px 20px 0px;
+}
+
+.ultimoboton{
+    display: flex;
+    justify-content: center;
+}
+
+.continuar{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 20px 0px 20px 0px;
+    background: #0068c8;
+    padding: 15px;
+    width: 150px;
+    border-bottom-right-radius: 30px;
+}
+
+.flex1{
+    display: flex;
+    justify-content: center;
+}
